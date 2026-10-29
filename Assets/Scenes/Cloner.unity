@@ -664,6 +664,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   brushRadius: 4
+  mask: {fileID: 0}
+  blurSize: 20
+  threshold: 12
 --- !u!212 &1334243739
 SpriteRenderer:
   serializedVersion: 2
@@ -937,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dc2ef966a4dc79448fc388122498dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DrawTimer
-  duration: 45
+  duration: 60
   label: {fileID: 1889083823}
 --- !u!114 &1889083823
 MonoBehaviour:
